@@ -29,7 +29,7 @@ pipeline {
                                         Status: SUCCESS
                                         Build URL: ${env.BUILD_URL}
                                     """,
-                                    to: 'udipikrishnaprasad@gmail.com'
+                                    to: 'expertszen@gmail.com'
                                 )
                             } else if (currentBuild.currentResult == 'FAILURE') {
                                 emailext(
@@ -41,7 +41,7 @@ pipeline {
                                         Status: FAILURE
                                         Check logs here: ${env.BUILD_URL}
                                     """,
-                                    to: 'udipikrishnaprasad@gmail.com'
+                                    to: 'expertszen@gmail.com'
                                 )
                             }
                         }
