@@ -1,1 +1,1 @@
-# Jenkins-Java-PL1
+# java-standalone-application
