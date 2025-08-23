@@ -8,4 +8,8 @@ public class AppTest {
     public void testApp() {
         assertTrue(true);
     }
+    @Test
+    public void testApp2() {
+        System.out.println("This is the second test");;
+    }
 }
