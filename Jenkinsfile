@@ -14,7 +14,6 @@ pipeline {
                 always {
                     junit 'target/surefire-reports/*.xml'
                 }
-                email
             }
         }
         stage('Post Build Notification') {
