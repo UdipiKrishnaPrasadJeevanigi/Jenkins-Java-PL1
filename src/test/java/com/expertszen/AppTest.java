@@ -10,6 +10,10 @@ public class AppTest {
     }
     @Test
     public void testApp2() {
-        System.out.println("This is the second test");;
+        System.out.println("This is the second test");
+    }
+    @Test
+    public void testError() {
+        System.out.println("This is error code");;
     }
 }
