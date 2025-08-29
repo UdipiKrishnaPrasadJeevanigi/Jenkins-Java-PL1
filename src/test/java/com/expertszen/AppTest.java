@@ -14,6 +14,6 @@ public class AppTest {
     }
     @Test
     public void testError() {
-        System.out.println("This is error code");;
+        System.out.println("This is error code")
     }
 }
